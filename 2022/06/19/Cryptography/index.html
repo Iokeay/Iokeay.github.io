@@ -20,19 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="1234deploy:      type: git      repository: git@github.com:panakot&#x2F;panakot.github.io.git      branch: master  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEFPpAaY+eel9OkODzba7wNNynOn&#x2F;sqMeuy0RCt3XeZHlkt">
+  <meta name="description" content="Chapter 1Classical CipherBasic KnowledgeA cryptosystem consists of five parts  plaintext space m - collection of plaintext to be encrypted ciphertext space C - set of encrypted ciphertexts key space K">
 <meta property="og:type" content="article">
-<meta property="og:title" content="again">
-<meta property="og:url" content="http://example.com/2022/05/17/again/index.html">
+<meta property="og:title" content="Cryptography">
+<meta property="og:url" content="http://example.com/2022/06/19/Cryptography/index.html">
 <meta property="og:site_name" content="Felt">
-<meta property="og:description" content="1234deploy:      type: git      repository: git@github.com:panakot&#x2F;panakot.github.io.git      branch: master  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEFPpAaY+eel9OkODzba7wNNynOn&#x2F;sqMeuy0RCt3XeZHlkt">
+<meta property="og:description" content="Chapter 1Classical CipherBasic KnowledgeA cryptosystem consists of five parts  plaintext space m - collection of plaintext to be encrypted ciphertext space C - set of encrypted ciphertexts key space K">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-05-17T05:28:25.000Z">
-<meta property="article:modified_time" content="2022-05-17T05:29:32.480Z">
+<meta property="article:published_time" content="2022-06-19T12:43:11.000Z">
+<meta property="article:modified_time" content="2022-06-19T13:22:42.885Z">
 <meta property="article:author" content="Ray Zeo">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2022/05/17/again/">
+<link rel="canonical" href="http://example.com/2022/06/19/Cryptography/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>again | Felt</title>
+  <title>Cryptography | Felt</title>
   
 
 
@@ -160,7 +160,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/17/again/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/19/Cryptography/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/parrots.jpg#/images/avatar.gif">
@@ -173,7 +173,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          again
+          Cryptography
         </h1>
 
         <div class="post-meta">
@@ -184,7 +184,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2022-05-17 13:28:25 / Modified: 13:29:32" itemprop="dateCreated datePublished" datetime="2022-05-17T13:28:25+08:00">2022-05-17</time>
+              <time title="Created: 2022-06-19 20:43:11 / Modified: 21:22:42" itemprop="dateCreated datePublished" datetime="2022-06-19T20:43:11+08:00">2022-06-19</time>
             </span>
 
           
@@ -198,10 +198,40 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">      type: git</span><br><span class="line">      repository: git@github.com:panakot/panakot.github.io.git</span><br><span class="line">      branch: master</span><br></pre></td></tr></table></figure>
-
-<p>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEFPpAaY+eel9OkODzba7wNNynOn&#x2F;sqMeuy0RCt3XeZHlktbn2oLZDmd1vIUqfuMIm2GeUGxJxNz7agWEGGFjIYXQSV4GBt+0cxiEi3Xujqn8uBHcadD77pWyGyi1Rkq+Bc0CMm7amUdjjC9OjcJ3tvhiSzDUQLIl4UWvyTshGGhXgCqz1ev95yLFLiYx&#x2F;9RpbzgH2jrYTHzyRmtk4DFl+tkbOcTZ2GLkZfBghqK</p>
-<p><strong>my public key is above.</strong></p>
+        <h1 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h1><h2 id="Classical-Cipher"><a href="#Classical-Cipher" class="headerlink" title="Classical Cipher"></a>Classical Cipher</h2><h4 id="Basic-Knowledge"><a href="#Basic-Knowledge" class="headerlink" title="Basic Knowledge"></a>Basic Knowledge</h4><p><strong>A cryptosystem consists of five parts</strong></p>
+<ul>
+<li>plaintext space m - collection of plaintext to be encrypted</li>
+<li>ciphertext space C - set of encrypted ciphertexts</li>
+<li>key space K - collection of all keys</li>
+<li><span id="more"></span></li>
+<li>encryption transformation (algorithm) e: encryption controlled by encryption key<br>Set of transformations, c &#x3D; E (k, m) or c &#x3D; EK (m)</li>
+<li>decryption transformation (algorithm) d: decryption controlled by decryption key<br>Set of transformations m &#x3D; D (k, c) or m &#x3D; D k (c)</li>
+</ul>
+<p><strong>A good cryptosystem should meet at least two conditions:</strong></p>
+<ul>
+<li>when the plaintext m and encryption key K1 are known, it is easy to calculate C &#x3D;ek1 (m); When the ciphertext C and the decryption key K2 are known, it is easy to calculate M &#x3D; D K2 (c);</li>
+<li>when the decryption key K2 is unknown, it is impossible to recover from ciphertext C<br>Output plaintext M.</li>
+</ul>
+<p><strong>Cryptanalyzers can usually attack under the following circumstances</strong></p>
+<ol>
+<li>Ciphertext Only Attack</li>
+<li>Known Plaintext Attack</li>
+<li>Chosen Plaintext Attack</li>
+<li>Chosen Ciphertext Attack<br>Ciphertext only attack has the weakest strength, and the attack strength increases accordingly.</li>
+</ol>
+<h4 id="Caesar-Cipher"><a href="#Caesar-Cipher" class="headerlink" title="Caesar Cipher"></a>Caesar Cipher</h4><p>​	In 50 BC, the famous Caesar the great invented a ciphercalled the Caesar cipher. In Caesar’s cipher, <strong>each letter corresponds to the third letter after it</strong>, and then it is replaced. For example, “a” corresponds to “d”, “B” corresponds to “e”, and so on. If you reach the end of the alphabet, you go back to the beginning. For example, “Z” corresponds to “C”, “Y” corresponds to “B”, and “X” corresponds to “a”, thus forming a cycle. At that time, the Roman army used Caesar cipher to communicate.</p>
+<p>Example: 	 the plaintext is “Veni, vidi, vici”, ciphertext “yhql, ylgl, ylfl”.</p>
+<h4 id="Permutation-Cipher"><a href="#Permutation-Cipher" class="headerlink" title="Permutation Cipher"></a>Permutation Cipher</h4><p>​	In the permutation cipher system, the words or letters in the plaintext are rearranged, the words or letters themselves remain unchanged, but the position has changed, forming the ciphertext, also known as the translocation cipher.<br>​	The simplest translocation cipher adopts the message inversion method, that is, the message is inverted in sequence according to the word order, and cut into a fixed length letter group to form a ciphertext.</p>
+<h4 id="Substitution-Cipher"><a href="#Substitution-Cipher" class="headerlink" title="Substitution Cipher"></a>Substitution Cipher</h4><p>​	The encryption of substitution cipher is to replace each letter of plaintext with another letter in the alphabet. The substitution first replaces the plaintext letter with an equivalent decimal number, and then performs operations with the replaced decimal number.</p>
+<p>​	According to the replacement of each letter one by one or multiple letters at the same time, classical cipher are divided into single table replacement cipher and multi table replacement cipher.</p>
+<p>​	The single table substitution cipher can be divided into</p>
+<ul>
+<li>add cipher</li>
+<li>multiplication cipher</li>
+<li>affine cipher</li>
+<li>key phrase in place of cipher</li>
+</ul>
+<h5 id="Single-table-substitution-cipher-affine-cipher"><a href="#Single-table-substitution-cipher-affine-cipher" class="headerlink" title="Single table substitution cipher affine cipher"></a>Single table substitution cipher affine cipher</h5><p>Plaintext: X<br>Ciphertext: y<br>Key: A, B, 0 ≤ a, B ≤ 25<br>Encryption: y &#x3D; ax +b (mod 26)<br>Decryption: x &#x3D; a-1 (y-b) (mod 26), a-1a ≡ 1 mod 26<br>Condition: (a, 26) &#x3D; 1</p>
 
     </div>
 
@@ -279,6 +309,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Chapter-1"><span class="nav-number">1.</span> <span class="nav-text">Chapter 1</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Classical-Cipher"><span class="nav-number">1.1.</span> <span class="nav-text">Classical Cipher</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Basic-Knowledge"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">Basic Knowledge</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Caesar-Cipher"><span class="nav-number">1.1.0.2.</span> <span class="nav-text">Caesar Cipher</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Permutation-Cipher"><span class="nav-number">1.1.0.3.</span> <span class="nav-text">Permutation Cipher</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Substitution-Cipher"><span class="nav-number">1.1.0.4.</span> <span class="nav-text">Substitution Cipher</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Single-table-substitution-cipher-affine-cipher"><span class="nav-number">1.1.0.4.1.</span> <span class="nav-text">Single table substitution cipher affine cipher</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
